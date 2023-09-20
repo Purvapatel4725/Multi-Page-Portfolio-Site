@@ -1,0 +1,105 @@
+@charset "UTF-8";
+
+body {
+font-family: Verdana, Geneva, Arial, sans-serif;
+padding: 0px;
+margin: 0px;    
+background: linear-gradient(to bottom,  rgba(75,34,68,1) 0%,rgba(65,24,58,1) 0%,rgba(68,27,61,1) 0%,rgba(67,26,60,1) 1%,rgba(69,28,62,1) 1%,rgba(71,27,62,1) 4%,rgba(73,29,64,1) 4%,rgba(74,28,65,1) 4%,rgba(72,26,63,1) 5%,rgba(73,27,64,1) 6%,rgba(77,27,62,1) 6%,rgba(79,29,64,1) 10%,rgba(83,29,65,1) 10%,rgba(84,28,65,1) 10%,rgba(84,30,64,1) 11%,rgba(87,30,65,1) 13%,rgba(90,30,66,1) 13%,rgba(91,31,67,1) 17%,rgba(95,31,66,1) 17%,rgba(94,30,65,1) 17%,rgba(98,32,68,1) 18%,rgba(98,32,68,1) 20%,rgba(103,31,69,1) 20%,rgba(104,32,69,1) 22%,rgba(105,34,66,1) 22%,rgba(105,34,66,1) 23%,rgba(107,33,70,1) 24%,rgba(109,35,72,1) 24%,rgba(108,34,67,1) 25%,rgba(108,34,67,1) 25%,rgba(111,36,69,1) 28%,rgba(114,32,68,1) 28%,rgba(118,36,72,1) 30%,rgba(118,36,72,1) 33%,rgba(121,35,70,1) 33%,rgba(120,34,69,1) 33%,rgba(122,36,71,1) 34%,rgba(122,36,71,1) 36%,rgba(123,37,72,1) 37%,rgba(128,38,76,1) 37%,rgba(129,38,73,1) 39%,rgba(136,39,74,1) 46%,rgba(137,40,75,1) 55%,rgba(135,40,74,1) 56%,rgba(135,41,77,1) 56%,rgba(116,46,80,1) 56%,rgba(96,41,73,1) 56%,rgba(79,43,79,1) 56%,rgba(64,46,84,1) 57%,rgba(66,50,89,1) 57%,rgba(65,47,89,1) 57%,rgba(73,47,92,1) 57%,rgba(71,46,86,1) 57%,rgba(64,50,86,1) 57%,rgba(68,46,92,1) 58%,rgba(68,47,88,1) 58%,rgba(67,46,87,1) 71%,rgba(70,49,90,1) 72%,rgba(58,37,78,1) 72%,rgba(55,34,75,1) 72%,rgba(57,36,77,1) 72%,rgba(57,36,77,1) 73%,rgba(54,33,74,1) 73%,rgba(55,34,75,1) 87%,rgba(50,29,70,1) 87%,rgba(49,28,69,1) 88%,rgba(49,28,69,1) 90%,rgba(36,19,55,1) 91%,rgba(37,20,56,1) 91%,rgba(35,18,54,1) 91%,rgba(36,19,53,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+}
+
+#wrapper{
+width: 2560px;
+height: 1600px;
+margin-left: auto;
+margin-right: auto;
+float: right;
+}
+
+#right{
+width: 845px;
+background-color: black;
+height: 845px;
+float: left;
+}
+
+#left{
+width: 845px;
+height: 845px;
+background-color: red;
+float: left;
+}
+
+#banner{
+width: 1690px;
+height: 120px;
+background-color: darkblue;
+float: left;
+}
+
+h1, h2, h3, h4, h5, h6, li{
+margin-left: 15px;
+}
+
+#banner h1{
+color: beige;
+text-align: right;
+}
+
+#banner h3{
+color: beige;
+text-align: center;
+}
+
+.tab{
+height: 150px;
+width: 150px;
+color: white;
+background-color: lightblue;
+margin: 15px;
+float: left;
+}
+
+.clear{
+clear: both;
+}
+
+.tab:hover{
+background-color: white;
+opacity: 1;
+}
+
+#footer{
+width: 1690px;
+height: 120px;
+background-color: darkblue;
+float: left;
+font-family:'Arial Narrow Bold';
+color: white;
+text-align: center;
+}
+
+.LoginSys{
+padding: 25px;
+background-color: green;
+width: 800px;
+height: 750px;
+}
+
+input[type=text], input[type=password]{
+width: 100%;
+margin: 8px 0;
+padding: 12px 20px;
+display: inline-block;
+border: 2px green;
+box-sizing: border-box;
+}
+
+#Image{
+float: right;
+image-resolution: 40px;
+}
+
+.LoginSys h2{
+text-align: center;
+}

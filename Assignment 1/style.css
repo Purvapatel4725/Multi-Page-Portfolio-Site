@@ -1,0 +1,62 @@
+@charset "UTF-8";
+/* CSS Document */
+/* The body tag style applies to all elements on the page */
+body {
+background-color: black;
+font-family: Verdana, Geneva, Arial, sans-serif;
+padding:0px;
+margin:0px;
+}
+/* The wrapper ID style is used with a div tag to provide a 960px wide page */
+#wrapper {
+width: 960px;height: 800px;
+margin-left: auto;
+margin-right: auto;
+background-color:LightSlateGrey ;
+}
+/* The right-column ID style is floated right */
+#right-column {
+float: right;
+width: 600px;height: 600px;
+background-color:LightGray;
+}
+/* The left-column ID style is floated left */
+#left-column {
+float: left;
+width: 360px;background-color:silver;
+height:600px;
+}
+/* Defining a style for a set of tags separated by commas applies the style to
+all tags */
+h1,h2,h3,h4,h5,h6,p,li {
+margin-left:15px;
+}
+#footer {
+height:80px;
+}
+#banner{
+height:120px;
+background-color:SlateGrey;
+}
+/* Defining a style for a set of tags not separated by commas applies the style
+only to all tags within the preceding tag*/
+#banner h1 {
+color: white;
+}
+/* Advanced Web design relies on class or ID styles, never tables */
+.box {
+height: 150px;
+width: 150px;float: left;
+background-color:tan;
+margin: 15px;
+opacity:.5;
+}
+/* The following pseudo-class applies to the box class when in a hovered state */
+.box:hover {
+background-color:white;
+opacity:1;
+}
+/* This clear class style terminates float */
+.clear{
+clear: both;
+}
