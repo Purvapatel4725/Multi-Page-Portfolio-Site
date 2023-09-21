@@ -13,7 +13,7 @@ background: linear-gradient(92deg, rgba(27,15,37,1) 100%, rgba(154,26,175,1) 100
 }
 
 
-.NavMenu {
+.NavMenu{
 list-style-type: none;
 margin: 0;
 padding: 0;
@@ -22,13 +22,13 @@ background: linear-gradient(92deg, rgba(27,15,37,1) 100%, rgba(154,26,175,1) 100
 }
 
 
-.NavMenu li {
+.NavMenu li{
 display: inline;
 margin-right: 80px; /* Adjust spacing between menu items */
 }
 
 
-.NavMenu li a {
+.NavMenu li a{
 text-decoration: none;
 color: #C202ED; /* Change the text color as desired */
 font-weight: bold;
@@ -40,7 +40,7 @@ transition: color 0.3s ease-in-out, box-shadow 1.5s ease-in-out;/*Copyright*/
 }
 
 
-.NavMenu li a:hover {
+.NavMenu li a:hover{
 text-decoration: none; /* Add an underline effect on hover */
 box-shadow: inset 100px 0 0 0 #C202ED;/*Copyright*/
 color: rgb(27,15,37);/*Copyright*/
@@ -48,7 +48,7 @@ color: linear-gradient(92deg, rgba(27,15,37,1) 100%, rgba(154,26,175,1) 100%, rg
 }
 
 
-#logo {
+#logo{
 width: 100px; /* Set the width of your logo */
 height: 100px; /* Set the height of your logo */
 margin-right: 0px; /* Adjust spacing between the logo and menu items */
@@ -56,7 +56,7 @@ transition: transform 0.3s ease-in-out; /* Add a smooth transition */
 }
 
 
-#logo:hover {
+#logo:hover{
 transform: rotate(360deg); /* Rotate the logo 360 degrees on hover */
 }
 
@@ -122,9 +122,11 @@ box-shadow: 0 0 10px #C202ED; /* Apply the glow effect using box-shadow */
 overflow: hidden; /* Hide the glow outside the circular container */
 }
 
+
 .PicLogo{
 list-style-type: none;
 }
+
 
 #ProfPic:hover{
 transform: rotate(360deg); /* Rotate the logo 360 degrees on hover */
@@ -361,12 +363,14 @@ color: #C202ED;
 text-decoration: none;
 }
 
+
 /* Clear floats to ensure the footer stays at the bottom */
 .clearfix::after {
 content: "";
 display: table;
 clear: both;
 }
+
 
 #LogoLinks{
 padding: 25px;
@@ -381,6 +385,7 @@ margin-top: 50px;
 margin-bottom: 30px;
 }
 
+
 #LogoLinks h1{
 text-align: center;
 color: white;
@@ -393,12 +398,14 @@ font-family: 'Orbitron', sans-serif; /*google font*/
 font-family: 'Press Start 2P', cursive; /*Google font*/
 }
 
+
 #LogoLinks h1:hover{
 text-decoration: none;
 text-shadow: 0 0 10px #C202ED, 0 0 20px #C202ED, 0 0 30px #C202ED;/*copyright*/
 color: #C202ED;/*Copyright*/
 opacity: 1;
 }
+
 
 #PythLogo{
 margin-top: 70px;
@@ -420,9 +427,11 @@ margin-left: 280px;
 transform: scale(1.1); /* Zoom in by 10% on hover */
 }
 
+
 .LoLink{
 list-style-type: none;   
 }
+
 
 #NetLogo{
 margin-top: 80px;
@@ -440,6 +449,7 @@ margin-left: 280px;
 margin-bottom: 80px;
 }
 
+
 #NetLogo:hover{
 transform: scale(1.1); /* Zoom in by 10% on hover */
 }
@@ -448,6 +458,7 @@ transform: scale(1.1); /* Zoom in by 10% on hover */
 .LoLink2{
 list-style-type: none;
 }
+
 
 #Head3{
 font-family: 'Archivo', sans-serif;
@@ -475,9 +486,11 @@ font-family: 'Racing Sans One', cursive;
 list-style-type: none;
 }
 
+
 .LoLink3{
 list-style-type: none;
 }
+
 
 #HeadIs2{
 margin-left: 130px;
@@ -497,12 +510,13 @@ display: inline-block; /* Make the container inline-block to fit the image */
 padding: 10px; /* Add some padding to create space for the glow effect */
 box-shadow: 0 0 10px #C202ED; /* Apply the glow effect using box-shadow */
 width: 800px;
-height: 800px;
+height: 1000px;
 align-items: center;
 color: #C202ED;
 margin-top: 50px;
 margin-bottom: 30px;
 }
+
 
 #PyPrjHead h1{
 text-align: center;
@@ -516,6 +530,7 @@ font-family: 'Orbitron', sans-serif; /*google font*/
 font-family: 'Press Start 2P', cursive; /*Google font*/
 }
 
+
 #PyPrjHead h1:hover{
 text-decoration: none;
 text-shadow: 0 0 10px #C202ED, 0 0 20px #C202ED, 0 0 30px #C202ED;/*copyright*/
@@ -523,10 +538,22 @@ color: #C202ED;/*Copyright*/
 opacity: 1;
 }
 
+
 #UnordLiOne{
 list-style-type: none;
 }
 
+#UnordLiTwo{
+list-style-type: none;
+}
+
+#KeyCompHeadPy{
+list-style-type: none;
+}
+
+#ONel{
+list-style-type: none;
+}
 
 
 
@@ -563,12 +590,13 @@ display: inline-block; /* Make the container inline-block to fit the image */
 padding: 10px; /* Add some padding to create space for the glow effect */
 box-shadow: 0 0 10px #C202ED; /* Apply the glow effect using box-shadow */
 width: 800px;
-height: 800px;
+height: 1200px;
 align-items: center;
 color: #C202ED;
 margin-top: 50px;
 margin-bottom: 30px;
 }
+
 
 #NetPrjHead h1{
 text-align: center;
@@ -582,6 +610,7 @@ font-family: 'Orbitron', sans-serif; /*google font*/
 font-family: 'Press Start 2P', cursive; /*Google font*/
 }
 
+
 #NetPrjHead h1:hover{
 text-decoration: none;
 text-shadow: 0 0 10px #C202ED, 0 0 20px #C202ED, 0 0 30px #C202ED;/*copyright*/
@@ -589,6 +618,21 @@ color: #C202ED;/*Copyright*/
 opacity: 1;
 }
 
+
 #UnordLi1{
+list-style-type: none;
+}
+
+
+#UnordLi2{
+list-style-type: none;
+}
+
+
+#KeyCompHeadNet{
+list-style-type: none;
+}
+
+#SelPara{
 list-style-type: none;
 }
