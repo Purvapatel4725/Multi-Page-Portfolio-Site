@@ -150,7 +150,6 @@ margin-bottom: 100px;
 #ImgContent .PicLogo .ContentItIs:hover{
 text-decoration: none;
 text-shadow: 0 0 10px #C202ED, 0 0 20px #C202ED, 0 0 30px #C202ED;/*copyright*/
-color: #C202ED;/*Copyright*/
 opacity: 1;
 transform: scale(1.1); /* Zoom in by 10% on hover */
 }
