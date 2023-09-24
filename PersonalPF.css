@@ -43,7 +43,7 @@ transition: color 0.3s ease-in-out, box-shadow 1.5s ease-in-out;/*Copyright*/
 text-decoration: none; /* Add an underline effect on hover */
 box-shadow: inset 100px 0 0 0 #C202ED;/*Copyright*/
 color: rgb(27,15,37);/*Copyright*/
-color: linear-gradient(92deg, rgba(27,15,37,1) 100%, rgba(154,26,175,1) 100%, rgba(6,66,176,1) 100%);/*Copyright*/
+color: rgb(27, 15, 37);/*Copyright*/
 }
 
 
@@ -563,34 +563,6 @@ list-style-type: none;
 #ONel{
 list-style-type: none;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 #NetPrjHead{
