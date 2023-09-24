@@ -59,6 +59,17 @@ transition: transform 0.3s ease-in-out; /* Add a smooth transition */
 transform: rotate(360deg); /* Rotate the logo 360 degrees on hover */
 }
 
+#logo1{
+    width: 100px; /* Set the width of your logo */
+    height: 100px; /* Set the height of your logo */
+    margin-right: 0px; /* Adjust spacing between the logo and menu items */
+    transition: transform 0.3s ease-in-out; /* Add a smooth transition */
+}
+    
+    
+#logo1:hover{
+    transform: rotate(360deg); /* Rotate the logo 360 degrees on hover */
+}
 
 #ImgContent{
 margin: 0;
