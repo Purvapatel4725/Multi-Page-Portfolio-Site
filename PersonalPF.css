@@ -60,15 +60,15 @@ transform: rotate(360deg); /* Rotate the logo 360 degrees on hover */
 }
 
 #logo1{
-    width: 100px; /* Set the width of your logo */
-    height: 100px; /* Set the height of your logo */
-    margin-right: 0px; /* Adjust spacing between the logo and menu items */
-    transition: transform 0.3s ease-in-out; /* Add a smooth transition */
+width: 100px; /* Set the width of your logo */
+height: 100px; /* Set the height of your logo */
+margin-right: 0px; /* Adjust spacing between the logo and menu items */
+transition: transform 0.3s ease-in-out; /* Add a smooth transition */
 }
     
     
 #logo1:hover{
-    transform: rotate(360deg); /* Rotate the logo 360 degrees on hover */
+transform: rotate(360deg); /* Rotate the logo 360 degrees on hover */
 }
 
 #ImgContent{
@@ -198,7 +198,7 @@ border-width: 10px;
 .ContactSys h2{
 text-align: center;
 color: white;
-margin-bottom: 30x;
+margin-bottom: 30px;
 padding: 10px; /* Padding inside the border */
 font-family: 'Archivo', sans-serif; /*google font*/
 font-family: 'Bebas Neue', sans-serif; /*google font*/
@@ -398,7 +398,7 @@ margin-bottom: 30px;
 #LogoLinks h1{
 text-align: center;
 color: white;
-margin-bottom: 30x;
+margin-bottom: 30px;
 padding: 10px; /* Padding inside the border */
 font-family: 'Archivo', sans-serif; /*google font*/
 font-family: 'Bebas Neue', sans-serif; /*google font*/
@@ -530,7 +530,7 @@ margin-bottom: 30px;
 #PyPrjHead h1{
 text-align: center;
 color: white;
-margin-bottom: 30x;
+margin-bottom: 30px;
 padding: 10px; /* Padding inside the border */
 font-family: 'Archivo', sans-serif; /*google font*/
 font-family: 'Bebas Neue', sans-serif; /*google font*/
@@ -610,7 +610,7 @@ margin-bottom: 30px;
 #NetPrjHead h1{
 text-align: center;
 color: white;
-margin-bottom: 30x;
+margin-bottom: 30px;
 padding: 10px; /* Padding inside the border */
 font-family: 'Archivo', sans-serif; /*google font*/
 font-family: 'Bebas Neue', sans-serif; /*google font*/
