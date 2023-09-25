@@ -59,6 +59,7 @@ transition: transform 0.3s ease-in-out; /* Add a smooth transition */
 transform: rotate(360deg); /* Rotate the logo 360 degrees on hover */
 }
 
+
 #logo1{
 width: 100px; /* Set the width of your logo */
 height: 100px; /* Set the height of your logo */
@@ -70,6 +71,7 @@ transition: transform 0.3s ease-in-out; /* Add a smooth transition */
 #logo1:hover{
 transform: rotate(360deg); /* Rotate the logo 360 degrees on hover */
 }
+
 
 #ImgContent{
 margin: 0;
@@ -184,6 +186,16 @@ margin-bottom: 30px;
 }
 
 
+.SubmitButton{
+background-color: rgb(27,15,37);
+background-color: linear-gradient(92deg, rgba(27,15,37,1) 100%, rgba(154,26,175,1) 100%, rgba(6,66,176,1) 100%);
+color: #C202ED;
+display: inline-block;
+box-sizing: border-box;
+border-color: #C202ED;
+}
+
+
 .ContactSys .Inside{
 width: 100%;
 margin: 8px 0;
@@ -215,9 +227,9 @@ margin: 8px 0;
 padding: 100px 20px;
 display: inline-block;
 box-sizing: border-box;
+border-color: #C202ED;
 vertical-align: top;
 overflow-y: auto;
-border-color: #C202ED;
 border-width: 10px;
 }
 
@@ -234,7 +246,7 @@ text-decoration: none;
 text-shadow: 0 0 10px #C202ED, 0 0 20px #C202ED, 0 0 30px #C202ED;/*copyright*/
 color: #C202ED;/*Copyright*/
 opacity: 1;
-transform: scale(1.1); /* Zoom in by 10% on hover */
+transform: scale(1.2); /* Zoom in by 20% on hover */
 }
 
 
@@ -552,9 +564,11 @@ opacity: 1;
 list-style-type: none;
 }
 
+
 #UnordLiTwo{
 list-style-type: none;
 }
+
 
 #KeyCompHeadPy{
 list-style-type: none;
@@ -610,9 +624,11 @@ opacity: 1;
 list-style-type: none;
 }
 
+
 #NetPrjDesc{
 list-style-type: none;
 }
+
 
 #UnordLi2{
 list-style-type: none;
@@ -622,6 +638,7 @@ list-style-type: none;
 #KeyCompHeadNet{
 list-style-type: none;
 }
+
 
 #SelPara{
 list-style-type: none;
