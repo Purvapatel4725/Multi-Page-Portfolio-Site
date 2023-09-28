@@ -1,0 +1,493 @@
+@media only screen and (max-width: 959px){
+    body {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        min-height: 100vh;
+        background: rgb(27, 15, 37);
+        background: linear-gradient(
+          92deg,
+          rgba(27, 15, 37, 1) 100%,
+          rgba(154, 26, 175, 1) 100%,
+          rgba(6, 66, 176, 1) 100%
+        );
+      }
+      
+      header{
+        margin-left: 5%;
+      }
+      .NavMenu {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        background: rgb(27, 15, 37);
+        background: linear-gradient(
+          92deg,
+          rgba(27, 15, 37, 1) 100%,
+          rgba(154, 26, 175, 1) 100%,
+          rgba(6, 66, 176, 1) 100%
+        );
+      }
+      
+      .NavMenu li {
+        display: block;
+        text-align: center;
+        margin-bottom: 10px; /* Adjust spacing between menu items */
+      }
+      
+      .NavMenu li a {
+        text-decoration: none;
+        color: #C202ED; /* Change the text color as desired */
+        font-weight: bold;
+        box-shadow: inset 0 0 0 0 black; /* Copyright */
+        color: #C202ED; /* Copyright */
+        margin: 0 -0.25rem; /* Copyright */
+        padding: 0 0.25rem; /* Copyright */
+        transition: color 0.3s ease-in-out, box-shadow 1.5s ease-in-out; /* Copyright */
+      }
+      
+      #logo,
+      #logo1 {
+        width: 50px; /* Set the width of your logo */
+        height: 50px; /* Set the height of your logo */
+        margin-right: 0px; /* Adjust spacing between the logo and menu items */
+      }
+      
+      
+      #ImgContent {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+        background: rgb(27, 15, 37);
+        background: linear-gradient(
+          92deg,
+          rgba(27, 15, 37, 1) 100%,
+          rgba(154, 26, 175, 1) 100%,
+          rgba(6, 66, 176, 1) 100%
+        );
+      }
+      
+      #ImgContent {
+        padding: 15px; /* Increase padding for smaller screens */
+        width: 100%; /* Use full width for smaller screens */
+        height: auto; /* Auto-adjust height for smaller screens */
+        align-items: center;
+        color: #C202ED;
+        margin-top: 20px; /* Reduce top margin for smaller screens */
+        margin-bottom: 10px; /* Reduce bottom margin for smaller screens */
+      }
+      
+      #ImgContent h1 {
+        margin-top: -5%;
+        text-align: center;
+        color: white;
+        margin-bottom: -5%; /* Adjust margin for smaller screens */
+        padding: 10px; /* Padding inside the border */
+        font-family: 'Archivo', sans-serif; /* Google font */
+        text-decoration: none;
+        text-shadow: 0 0 10px #C202ED, 0 0 20px #C202ED,
+          0 0 30px #C202ED; /* Copyright */
+        color: white; /* Copyright */
+        opacity: 1;
+        margin-left: -3%;
+      }
+      
+      #ProfPic {
+        margin-top: 10%; /* Adjust margin for smaller screens */
+        margin-left: 33%; /* Center the image for smaller screens */
+        margin-bottom: 10%; /* Adjust margin for smaller screens */
+        width: 30%; /* Use full width for smaller screens */
+        height: auto; /* Auto-adjust height for smaller screens */
+        margin-right: 0px; /* Remove right margin for smaller screens */
+        border-radius: 50%; /* Create a circular shape for the container */
+        box-shadow: 0 0 10px #C202ED; /* Apply the glow effect using box-shadow */
+        overflow: hidden; /* Hide the glow outside the circular container */
+      }
+      
+      .PicLogo {
+        list-style-type: none;
+      }
+
+
+      #ImgContent .PicLogo .ContentItIs {
+        color: white;
+        text-align: center;
+        margin-top: -6%; /* Adjust margin for smaller screens */
+      }
+      
+      .ContentItIs {
+        list-style: none; /* Remove default bullets */
+        margin-bottom: 80px; /* Adjust margin for smaller screens */
+        text-decoration: none;
+        text-shadow: 0 0 10px #C202ED, 0 0 20px #C202ED,
+          0 0 30px #C202ED; /* Copyright */
+        opacity: 1;
+      }
+      
+      form {
+        text-align: center;
+      }
+      
+      .ContactSys {
+        padding: 3%; /* Increase padding for smaller screens */
+        width: 100%; /* Use full width for smaller screens */
+        align-items: center;
+        color: #C202ED;
+        margin-top: 20px; /* Reduce top margin for smaller screens */
+        margin-bottom: 10px; /* Reduce bottom margin for smaller screens */
+
+        padding: 2%; /* Reduce padding for tablets */
+        text-align: center; /* Center the content */
+        display: flex;
+        flex-direction: column;
+      }
+      
+      .SubmitButton {
+        background-color: rgb(27, 15, 37);
+        color: white;
+        display: inline-block;
+        box-sizing: border-box;
+        border-color: #C202ED;
+      }
+      
+      .ContactSys .Inside {
+        margin: 8px 0;
+        padding: 1%;
+        display: inline-block;
+        box-sizing: border-box;
+        border-color: #C202ED;
+        border-width: 10px;
+        width: 100%;
+      }
+      
+      .ContactSys h2 {
+        margin-top: -10%;
+        text-align: center;
+        color: white;
+        margin-bottom: 10px; /* Adjust margin for smaller screens */
+        padding: 10px; /* Padding inside the border */
+        font-family: 'Archivo', sans-serif; /* Google font */
+        text-decoration: none;
+        text-shadow: 0 0 10px #C202ED, 0 0 20px #C202ED,
+          0 0 30px #C202ED; /* Copyright */
+        color: white; /* Copyright */
+        opacity: 1;
+      }
+      
+      .ContactSys .Outside {
+        height: auto; /* Auto-adjust height for smaller screens */
+        margin: 8px 0;
+        padding: 20px 20px;
+        display: inline-block;
+        box-sizing: border-box;
+        border-color: #C202ED;
+        vertical-align: top;
+        overflow-y: auto;
+        border-width: 10px;
+        width: 100%;
+      }
+      
+      .ContactSys .Outside::placeholder {
+        text-align: left;
+        vertical-align: top; /* Align the placeholder text at the top */
+        padding-top: 0; /* Remove any top padding for the placeholder text */
+      }
+      
+      .ContactSys .SubmitButton:hover {
+        text-decoration: none;
+        text-shadow: 0 0 10px #C202ED, 0 0 20px #C202ED,
+          0 0 30px #C202ED; /* Copyright */
+        color: #C202ED; /* Copyright */
+        opacity: 1;
+        transform: scale(1.2); /* Zoom in by 20% on hover */
+      }
+      
+      .ContactSys h2:hover {
+        text-decoration: none;
+        text-shadow: 0 0 10px #C202ED, 0 0 20px #C202ED,
+          0 0 30px #C202ED; /* Copyright */
+        color: #C202ED; /* Copyright */
+        opacity: 1;
+      }
+      
+      .ContactSys .SubmitButton {
+        height: 30px;
+        width: 70px;
+        cursor: pointer;
+        margin-top: 20px; /* Adjust margin for smaller screens */
+      }
+      
+      #WelcomeHome .WelText {
+        text-align: center;
+        margin-top: 20px; /* Adjust margin for smaller screens */
+        color: white;
+        padding: 15px; /* Increase padding for smaller screens */
+        width: 100%; /* Use full width for smaller screens */
+        align-items: center;
+      }
+      
+      #WelcomeHome .WelText h1 {
+        font-size: 200%; /* Decrease font size for smaller screens */
+        text-decoration: none;
+        text-shadow: 0 0 10px #C202ED, 0 0 20px #C202ED,
+          0 0 30px #C202ED; /* Copyright */
+        color: white; /* Copyright */
+        opacity: 1;
+      }
+      
+      #LogoItIs {
+        margin-top: 20px; /* Adjust margin for smaller screens */
+        width: 30%; /* Use full width for smaller screens */
+        height: auto; /* Auto-adjust height for smaller screens */
+        margin-right: 0px; /* Remove right margin for smaller screens */
+        transition: transform 5s ease-in-out; /* Add a smooth transition */
+        border-radius: 50%; /* Create a circular shape for the container */
+        box-shadow: 0 0 10px #C202ED; /* Apply the glow effect using box-shadow */
+        overflow: hidden; /* Hide the glow outside the circular container */
+      }
+      
+      #WelcomeHome ul{
+        list-style-type: none;
+      }
+      
+      #WelcomeHome .WelText h1,
+      #WelcomeHome .WelText h2 {
+        font-family: 'Archivo', sans-serif;
+        font-family: 'Bebas Neue', sans-serif;
+        font-family: 'Lilita One', cursive;
+        font-family: 'Monoton', cursive;
+        font-family: 'Orbitron', sans-serif;
+        font-family: 'Press Start 2P', cursive;
+        font-family: 'Racing Sans One', cursive;
+        margin-top: 20px; /* Adjust margin for smaller screens */
+      }
+      
+      #WelcomeHome .WelText h2:hover {
+        text-decoration: none;
+        text-shadow: 0 0 10px #C202ED, 0 0 20px #C202ED,
+          0 0 30px #C202ED; /* Copyright */
+        color: #C202ED; /* Copyright */
+        opacity: 1;
+        transform: scale(1.1); /* Zoom in by 10% on hover */
+      }
+      
+      #WelcomeHome .WelText h3 {
+        font-family: 'Archivo', sans-serif;
+        font-family: 'Bebas Neue', sans-serif;
+        font-family: 'Lilita One', cursive;
+        font-family: 'Monoton', cursive;
+        font-family: 'Orbitron', sans-serif;
+        font-family: 'Press Start 2P', cursive;
+        font-family: 'Racing Sans One', cursive;
+      }
+      
+      .VidContent {
+        max-width: 100%; /* Ensure the video content fits within smaller screens */
+        margin: 0 auto;
+        text-align: center;
+        padding: 2%;
+        margin-left: 10%;
+        margin-right: 5%;
+        margin-bottom: 5%; /* Adjust margin for smaller screens */
+      }
+      
+      video {
+        width: 50%;
+        max-height: 100%;
+      }
+      
+      footer {
+        background: rgb(27, 15, 37);
+        background: linear-gradient(
+          92deg,
+          rgba(27, 15, 37, 1) 100%,
+          rgba(154, 26, 175, 1) 100%,
+          rgba(6, 66, 176, 1) 100%
+        );
+        color: #C202ED;
+        text-align: center;
+        padding: 10px 0;
+        margin-left: 10%;
+        margin-top: 20px; /* Adjust margin for smaller screens */
+        margin-bottom: 10px; /* Adjust margin for smaller screens */
+      }
+      
+      .email a {
+        color: #C202ED;
+        text-decoration: none;
+      }
+      
+      /* Clear floats to ensure the footer stays at the bottom */
+      .clearfix::after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+      
+      #LogoLinks {
+        margin-top: 20px; /* Adjust margin for smaller screens */
+        width: 20%; /* Use full width for smaller screens */
+        height: auto; /* Auto-adjust height for smaller screens */
+        margin-right: 0px; /* Remove right margin for smaller screens */
+        margin-left: 40%;
+      }
+      
+      #HeadingItIs{
+        text-decoration: none;
+        text-shadow: 0 0 10px #C202ED, 0 0 20px #C202ED,
+          0 0 30px #C202ED; /* Copyright */
+        color: white; /* Copyright */
+        opacity: 1;
+      }
+
+      #HeadIs2{
+        color: #C202ED;
+      }
+
+      #Head3{
+        color: white;
+      }
+
+      #Head32{
+        color: white;
+      }
+      
+      #PythLogo,
+      #NetLogo {
+        margin-top: 20px; /* Adjust margin for smaller screens */
+        width: 100%; /* Use full width for smaller screens */
+        height: auto; /* Auto-adjust height for smaller screens */
+        margin-right: 0px; /* Remove right margin for smaller screens */
+        border-radius: 50%; /* Create a circular shape for the container */
+        box-shadow: 0 0 10px #C202ED; /* Apply the glow effect using box-shadow */
+        overflow: hidden; /* Hide the glow outside the circular container */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-left: 0; /* Reset left margin for smaller screens */
+        margin-bottom: 30px; /* Adjust margin for smaller screens */
+      }
+      
+      #PythLogo:hover,
+      #NetLogo:hover {
+        transform: scale(1.1); /* Zoom in by 10% on hover */
+      }
+      
+      .LoLink,
+      .LoLink2,
+      .LoLink3 {
+        list-style-type: none;
+        text-align: center;
+      }
+      
+      #Head3 {
+        font-family: 'Archivo', sans-serif;
+        font-family: 'Bebas Neue', sans-serif;
+        font-family: 'Lilita One', cursive;
+        font-family: 'Monoton', cursive;
+        font-family: 'Orbitron', sans-serif;
+        font-family: 'Press Start 2P', cursive;
+        font-family: 'Racing Sans One', cursive;
+        margin-left: 0; /* Reset left margin for smaller screens */
+      }
+      
+      #Head32 {
+        margin-left: 0; /* Reset left margin for smaller screens */
+        margin-bottom: 0px;
+        margin-top: -20px; /* Adjust margin for smaller screens */
+        font-family: 'Archivo', sans-serif;
+        font-family: 'Bebas Neue', sans-serif;
+        font-family: 'Lilita One', cursive;
+        font-family: 'Monoton', cursive;
+        font-family: 'Orbitron', sans-serif;
+        font-family: 'Press Start 2P', cursive;
+        font-family: 'Racing Sans One', cursive;
+      }
+      
+      #PyPrjHead,
+      #NetPrjHead {
+        margin-top: 20px; /* Adjust margin for smaller screens */
+        width: 100%; /* Use full width for smaller screens */
+        height: auto; /* Auto-adjust height for smaller screens */
+        margin-right: 0px; /* Remove right margin for smaller screens */
+      }
+      
+      
+      #PyPrjHead h1,
+      #NetPrjHead h1 {
+        text-align: center;
+        color: white;
+        margin-bottom: 20px; /* Adjust margin for smaller screens */
+        padding: 10px; /* Padding inside the border */
+        font-family: 'Archivo', sans-serif; /* Google font */
+      }
+
+
+      #UnordLiOne h1{
+        text-decoration: none;
+        text-shadow: 0 0 10px #C202ED, 0 0 20px #C202ED,
+          0 0 30px #C202ED; /* Copyright */
+        color: white; /* Copyright */
+        opacity: 1;
+      }
+      
+      article{
+        text-decoration: none;
+        text-shadow: 0 0 10px #C202ED, 0 0 20px #C202ED,
+          0 0 30px #C202ED; /* Copyright */
+        color: white; /* Copyright */
+        opacity: 1;
+      }
+
+      #PyPrjDesc, #UnordLi1, #UnordLi2, #NetPrjDesc, #KeyCompHeadNet, #SelPara{
+        text-decoration: none;
+        text-shadow: 0 0 10px #C202ED, 0 0 20px #C202ED,
+          0 0 30px #C202ED; /* Copyright */
+        color: white; /* Copyright */
+        opacity: 1;
+      }
+
+      #ONel{
+        text-decoration: none;
+        text-shadow: 0 0 10px #C202ED, 0 0 20px #C202ED,
+          0 0 30px #C202ED; /* Copyright */
+        color: white; /* Copyright */
+        opacity: 1;
+      }
+
+      #UnordLiTwo{
+        text-decoration: none;
+        text-shadow: 0 0 10px #C202ED, 0 0 20px #C202ED,
+          0 0 30px #C202ED; /* Copyright */
+        color: white; /* Copyright */
+        opacity: 1;
+      }
+
+      #KeyCompHeadPy{
+        text-decoration: none;
+        text-shadow: 0 0 10px #C202ED, 0 0 20px #C202ED,
+          0 0 30px #C202ED; /* Copyright */
+        color: white; /* Copyright */
+        opacity: 1;
+      }
+
+      #UnordLiOne,
+      #UnordLiTwo,
+      #KeyCompHeadPy,
+      #PyPrjDesc,
+      #ONel,
+      #UnordLi1,
+      #NetPrjDesc,
+      #UnordLi2,
+      #KeyCompHeadNet,
+      #SelPara {
+        list-style-type: none;
+      }
+    }

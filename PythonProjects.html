@@ -3,29 +3,41 @@
 <head>
     <title>Python Project</title>
     <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="PersonalPF.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@100&family=Bebas+Neue&family=Black+Ops+One&family=Lilita+One&family=Monoton&family=Orbitron:wght@900&family=Racing+Sans+One&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@100&family=Bebas+Neue&family=Lilita+One&family=Orbitron:wght@900&family=Press+Start+2P&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width">
+    <!-- full-size monitor style sheet-->
+    <link href="PersonalPF.css" rel="stylesheet" type="text/css" media="only screen and (min-width:960px)">
+    <!-- tablet style sheet-->
+    <link href="tablet.css" rel="stylesheet" type="text/css" media="only screen and (min-width:481px) and (max-width:959px)">
+    <!-- phone style sheet-->
+    <link href="phone.css" rel="stylesheet" type="text/css" media="only screen and (max-width:480px)">
 </head>
 <body>
     <div id="Wrapper">
         <div id="banner">
-        <ul class="NavMenu">
-            <li>
-                <img id="logo" src="LogoHomePage.jpg" alt="LogoHome">
-            </li>
-            <li><a href="PHome.html">Home</a></li>
-            <li><a href="Projects.html">Projects</a></li>
-            <li><a href="PContact.html">Contact</a></li>
-            <li><a href="PAbout.html">About Me</a></li>
-            <li>
-                <img id="logo1" src="LogoHomePage.jpg" alt="LogoHome1">
-            </li>
-        </ul>
+        <header>
+            <ul class="NavMenu">
+                <li>
+                    <picture>
+                    <img id="logo" src="LogoHomePage.jpg" alt="LogoHome" style="max-width: 100%;">
+                    </picture>
+                </li>
+                    <li><a href="PHome.html">Home</a></li>
+                    <li><a href="Projects.html">Projects</a></li>
+                    <li><a href="PContact.html">Contact</a></li>
+                    <li><a href="PAbout.html">About Me</a></li>
+                    <li>
+                        <picture>
+                            <img id="logo1" src="LogoHomePage.jpg" alt="LogoHome1" style="max-width: 100%;">
+                        </picture>
+                    </li>
+            </ul>
+        </header>
         </div>
         <div id="PyPrjHead">
             <ul>
@@ -36,13 +48,15 @@
                 </ul>
                 <li id="KeyCompHeadPy"><h2>Key Project Components:</h2></li>
                 <ul>
-                    <li><h4>Encryption and Decryption Algorithms: In this project, different encryption and decryption techniques, such as the Substitution, Playfair, Caesar, Transposition, Product, and RSA cyphers, were implemented. Only those with the proper decryption key could decipher the original message because each technique was meticulously created to convert plaintext into ciphertext and vice versa.</h4></li>
-                    <li><h4>User Interface: I created a user-friendly user interface that allowed participants to enter messages and choose the preferred encryption algorithm in order to engage users and offer a smooth experience. The UI gave immediate response by presenting the encrypted code, which gave the game a sense of tension.</h4></li>
-                    <li><h4>Random Encryption: The idea of random encryption served as the project's main gameplay component. Each message's encryption scheme would be chosen at random by the programme, giving the game a sense of surprise and excitement. In order to maintain the security of the encoded messages, this also necessitated the use of pseudo-random encryption keys.</h4></li>
-                    <li><h4>Cryptographic Concepts: I immersed myself in a variety of cryptographic ideas throughout the project, including encryption, decoding, ciphers, plaintext, ciphertext, and secret keys. I was able to develop reliable and safe encryption methods because of this knowledge.</h4></li>
-                    <li><h4>Software Development Skills: I improved my software development abilities while creating this game by working on user interfaces, algorithm design, and code optimisation. I effectively met the project's requirements for deft problem-solving and thorough attention to detail.</h4></li>
-                    <li><h4>Project Goals: The main objective of this project was to develop a fun and instructive game that would both amuse users and educate them to the interesting field of cryptography. By completing this task, I showed that I could mix my technical knowledge with creativity.</h4></li>
-                    <li><h4>Educational Aspect: With the aid of the game, users were able to learn more about the science behind secret codes and the fundamentals of cryptography. This new aspect demonstrated my capacity to produce software that is both entertaining and instructional.</h4></li>
+                    <article>
+                        <li><h4>Encryption and Decryption Algorithms: In this project, different encryption and decryption techniques, such as the Substitution, Playfair, Caesar, Transposition, Product, and RSA cyphers, were implemented. Only those with the proper decryption key could decipher the original message because each technique was meticulously created to convert plaintext into ciphertext and vice versa.</h4></li>
+                        <li><h4>User Interface: I created a user-friendly user interface that allowed participants to enter messages and choose the preferred encryption algorithm in order to engage users and offer a smooth experience. The UI gave immediate response by presenting the encrypted code, which gave the game a sense of tension.</h4></li>
+                        <li><h4>Random Encryption: The idea of random encryption served as the project's main gameplay component. Each message's encryption scheme would be chosen at random by the programme, giving the game a sense of surprise and excitement. In order to maintain the security of the encoded messages, this also necessitated the use of pseudo-random encryption keys.</h4></li>
+                        <li><h4>Cryptographic Concepts: I immersed myself in a variety of cryptographic ideas throughout the project, including encryption, decoding, ciphers, plaintext, ciphertext, and secret keys. I was able to develop reliable and safe encryption methods because of this knowledge.</h4></li>
+                        <li><h4>Software Development Skills: I improved my software development abilities while creating this game by working on user interfaces, algorithm design, and code optimisation. I effectively met the project's requirements for deft problem-solving and thorough attention to detail.</h4></li>
+                        <li><h4>Project Goals: The main objective of this project was to develop a fun and instructive game that would both amuse users and educate them to the interesting field of cryptography. By completing this task, I showed that I could mix my technical knowledge with creativity.</h4></li>
+                        <li><h4>Educational Aspect: With the aid of the game, users were able to learn more about the science behind secret codes and the fundamentals of cryptography. This new aspect demonstrated my capacity to produce software that is both entertaining and instructional.</h4></li>
+                    </article>
                 </ul>
                 <li id="ONel"><h4>This Project illustrates my dedication to developing my skill set, especially in the areas of software development and cryptography. It confirms my ability to create programmes that are both interactive and interesting while fostering knowledge and awareness. Overall, this project demonstrates my commitment to understanding difficult technical problems and providing creative solutions.</h4></li>
             </ul>

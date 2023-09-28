@@ -3,29 +3,41 @@
 <head>
     <title>Networking Project</title>
     <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="PersonalPF.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@100&family=Bebas+Neue&family=Black+Ops+One&family=Lilita+One&family=Monoton&family=Orbitron:wght@900&family=Racing+Sans+One&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@100&family=Bebas+Neue&family=Lilita+One&family=Orbitron:wght@900&family=Press+Start+2P&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width">
+    <!-- full-size monitor style sheet-->
+    <link href="PersonalPF.css" rel="stylesheet" type="text/css" media="only screen and (min-width:960px)">
+    <!-- tablet style sheet-->
+    <link href="tablet.css" rel="stylesheet" type="text/css" media="only screen and (min-width:481px) and (max-width:959px)">
+    <!-- phone style sheet-->
+    <link href="phone.css" rel="stylesheet" type="text/css" media="only screen and (max-width:480px)">
 </head>
 <body>
     <div id="Wrapper">
         <div id="banner">
-        <ul class="NavMenu">
-            <li>
-                <img id="logo" src="LogoHomePage.jpg" alt="LogoHome">
-            </li>
-            <li><a href="PHome.html">Home</a></li>
-            <li><a href="Projects.html">Projects</a></li>
-            <li><a href="PContact.html">Contact</a></li>
-            <li><a href="PAbout.html">About Me</a></li>
-            <li>
-                <img id="logo1" src="LogoHomePage.jpg" alt="LogoHome1">
-            </li>
-        </ul>
+        <header>
+            <ul class="NavMenu">
+                <li>
+                    <picture>
+                        <img id="logo" src="LogoHomePage.jpg" alt="LogoHome" style="max-width: 100%;">
+                    </picture>
+                </li>
+                    <li><a href="PHome.html">Home</a></li>
+                    <li><a href="Projects.html">Projects</a></li>
+                    <li><a href="PContact.html">Contact</a></li>
+                    <li><a href="PAbout.html">About Me</a></li>
+                    <li>
+                        <picture>
+                            <img id="logo1" src="LogoHomePage.jpg" alt="LogoHome1" style="max-width: 100%;">
+                        </picture>
+                    </li>
+            </ul>
+        </header>
         </div>
         <div id="NetPrjHead">
             <ul>
@@ -33,9 +45,10 @@
                 <li id="UnordLi2"><h2>Project Description:</h2></li>
                 <ul>
                 <li id="NetPrjDesc"><h4>I led a crucial initiative to create a strong and connected network infrastructure for our university as a key member of the team in the networking course at Ontario Tech University. In order to improve communication, administration, and remote access capabilities across North America, including Toronto, Vancouver, Chicago, and Mexico, the project sought to seamlessly integrate four major cities with the University of Ontario Institute of Technology.</h4></li>
-                </ul>
+            </ul>
                 <li id="KeyCompHeadNet"><h2>Key Project Components:</h2></li>
-                <ul>
+            <ul>
+                <article>
                     <li><h4>Network Configuration: I set up the Vancouver router and LAN with success, creating the framework for the entire network system. This required setting up crucial network components and ensuring the Vancouver branch had the best connectivity.</h4></li>
                     <li><h4>VLANs and Trunking: I carefully implemented trunking, SVIs (Switch Virtual Interfaces), and VLANs in the Chicago LAN. This enabled effective network segmentation, ensuring security and scalability.</h4></li>
                     <li><h4>VLAN Assignment: I assigned VLANs on the Chicago LAN switches as part of network segmentation to make sure each department had a unique virtual LAN for better network management and security.</h4></li>
@@ -47,6 +60,7 @@
                     <li><h4>Mexico LAN Connectivity: I made sure the Mexico LAN was always connected, enabling productive operations for research and development.</h4></li>
                     <li><h4>Remote Access Solution: I devised and implemented a safe technique for accessing all the networks to Ontario Tech recidence, which was a crucial step for remote management. To ensure encrypted and secure access to all network resources, routers, switches, and devices, a strong VPN (Virtual Private Network) solution has to be installed.</h4></li>
                     <li><h4>Testing and Validation: In order to guarantee the project's success, thorough testing was carried out. I checked to make sure the pings were functioning from every end of the network.</h4></li>
+                </article>
             </ul>
                 <li id="SelPara"><h4>This project demonstrated both my prowess in network design, setup, and security as well as my capacity to take on difficult tasks in a fast-paced professional setting. I made sure that our network was effectively managed and administered by allowing secure remote access to it.<br>This project's effective execution demonstrated my dedication to innovation, network optimisation, and cybersecurity while also showcasing my expertise in network architecture, routing, and remote management.</h4></li>
         </div>

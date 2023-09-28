@@ -243,7 +243,7 @@ padding-top: 0; /* Remove any top padding for the placeholder text */
 .ContactSys .SubmitButton:hover{
 text-decoration: none;
 text-shadow: 0 0 10px #C202ED, 0 0 20px #C202ED, 0 0 30px #C202ED;/*copyright*/
-color: #C202ED;/*Copyright*/
+color: white;
 opacity: 1;
 transform: scale(1.2); /* Zoom in by 20% on hover */
 }

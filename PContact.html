@@ -3,26 +3,38 @@
 <head>
     <title>Contact</title>
     <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="PersonalPF.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@100&family=Bebas+Neue&family=Lilita+One&family=Orbitron:wght@900&family=Press+Start+2P&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width">
+    <!-- full-size monitor style sheet-->
+    <link href="PersonalPF.css" rel="stylesheet" type="text/css" media="only screen and (min-width:960px)">
+    <!-- tablet style sheet-->
+    <link href="tablet.css" rel="stylesheet" type="text/css" media="only screen and (min-width:481px) and (max-width:959px)">
+    <!-- phone style sheet-->
+    <link href="phone.css" rel="stylesheet" type="text/css" media="only screen and (max-width:480px)">
 </head>
 <body>
     <div id="Wrapper">
         <div id="banner">
-            <ul class="NavMenu">
-                <li>
-                    <img id="logo" src="LogoHomePage.jpg" alt="LogoHome">
-                </li>
-                <li><a href="PHome.html">Home</a></li>
-                <li><a href="Projects.html">Projects</a></li>
-                <li><a href="PContact.html">Contact</a></li>
-                <li><a href="PAbout.html">About Me</a></li>
-                <li>
-                    <img id="logo1" src="LogoHomePage.jpg" alt="LogoHome1">
-                </li>
-            </ul>
+            <header>
+                <ul class="NavMenu">
+                    <li>
+                        <picture>
+                            <img id="logo" src="LogoHomePage.jpg" alt="LogoHome" style="max-width: 100%;">
+                        </picture>
+                    </li>
+                        <li><a href="PHome.html">Home</a></li>
+                        <li><a href="Projects.html">Projects</a></li>
+                        <li><a href="PContact.html">Contact</a></li>
+                        <li><a href="PAbout.html">About Me</a></li>
+                        <li>
+                            <picture>
+                                <img id="logo1" src="LogoHomePage.jpg" alt="LogoHome1" style="max-width: 100%;">
+                            </picture>
+                        </li>
+                </ul>
+            </header>
         </div>
         <form method="post" enctype="text/plain">
             <div class="ContactSys">
