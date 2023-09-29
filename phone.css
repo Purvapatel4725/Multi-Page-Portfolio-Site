@@ -298,7 +298,7 @@
     }
     
     video{
-      width: 50%;
+      width: 100%;
       max-height: 100%;
     }
     
@@ -332,10 +332,10 @@
     
     #LogoLinks{
       margin-top: 20px; /* Adjust margin for smaller screens */
-      width: 20%; /* Use full width for smaller screens */
+      width: 100%; /* Use full width for smaller screens */
       height: auto; /* Auto-adjust height for smaller screens */
-      margin-right: 0px; /* Remove right margin for smaller screens */
-      margin-left: 40%;
+      margin-right: 10%; /* Remove right margin for smaller screens */
+      margin-left: 10%;
     }
     
     #HeadingItIs{
@@ -344,10 +344,12 @@
         0 0 30px #C202ED; /* Copyright */
       color: white; /* Copyright */
       opacity: 1;
+      margin-right: 20%;
     }
 
     #HeadIs2{
       color: #C202ED;
+      margin-right: 15%;
     }
 
     #Head3{
@@ -361,9 +363,9 @@
     #PythLogo,
     #NetLogo{
       margin-top: 20px; /* Adjust margin for smaller screens */
-      width: 100%; /* Use full width for smaller screens */
+      width: 50%; /* Use full width for smaller screens */
       height: auto; /* Auto-adjust height for smaller screens */
-      margin-right: 0px; /* Remove right margin for smaller screens */
+      margin-right: 0; /* Remove right margin for smaller screens */
       border-radius: 50%; /* Create a circular shape for the container */
       box-shadow: 0 0 10px #C202ED; /* Apply the glow effect using box-shadow */
       overflow: hidden; /* Hide the glow outside the circular container */
@@ -373,6 +375,7 @@
       justify-content: center;
       margin-left: 0; /* Reset left margin for smaller screens */
       margin-bottom: 30px; /* Adjust margin for smaller screens */
+      margin-left: 12%;
     }
     
     #PythLogo:hover,
@@ -385,6 +388,7 @@
     .LoLink3{
       list-style-type: none;
       text-align: center;
+      width: 100%;
     }
     
     #Head3{
@@ -396,11 +400,13 @@
       font-family: 'Press Start 2P', cursive;
       font-family: 'Racing Sans One', cursive;
       margin-left: 0; /* Reset left margin for smaller screens */
+      margin-right: 22%;
     }
     
     #Head32{
       margin-left: 0; /* Reset left margin for smaller screens */
       margin-bottom: 0px;
+      margin-right: 22%;
       margin-top: -20px; /* Adjust margin for smaller screens */
       font-family: 'Archivo', sans-serif;
       font-family: 'Bebas Neue', sans-serif;
@@ -417,6 +423,9 @@
       width: 100%; /* Use full width for smaller screens */
       height: auto; /* Auto-adjust height for smaller screens */
       margin-right: 0px; /* Remove right margin for smaller screens */
+    }
+    #PyPrjHead ul, #NetPrjHead ul{
+      padding-right: 2.5%;
     }
     
     
