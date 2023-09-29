@@ -128,6 +128,7 @@
       text-shadow: 0 0 10px #C202ED, 0 0 20px #C202ED,
         0 0 30px #C202ED; /* Copyright */
       opacity: 1;
+      padding-right: 10%;
     }
     
     form{
