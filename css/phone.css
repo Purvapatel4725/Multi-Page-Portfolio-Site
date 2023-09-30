@@ -15,7 +15,7 @@
       );
     }
     
-    header{
+    nav{
       margin-left: 5%;
     }
     .NavMenu{
@@ -96,6 +96,11 @@
       color: white; /* Copyright */
       opacity: 1;
       margin-left: -3%;
+      font-family: 'Archivo', sans-serif; /*google font*/
+      font-family: 'Bebas Neue', sans-serif; /*google font*/
+      font-family: 'Lilita One', cursive;  /*google font*/
+      font-family: 'Orbitron', sans-serif; /*google font*/
+      font-family: 'Press Start 2P', cursive; /*Google font*/
     }
     
     #ProfPic{
@@ -104,7 +109,7 @@
       margin-bottom: 10%; /* Adjust margin for smaller screens */
       width: 30%; /* Use full width for smaller screens */
       height: auto; /* Auto-adjust height for smaller screens */
-      margin-right: 0px; /* Remove right margin for smaller screens */
+      margin-right: 0; /* Remove right margin for smaller screens */
       border-radius: 50%; /* Create a circular shape for the container */
       box-shadow: 0 0 10px #C202ED; /* Apply the glow effect using box-shadow */
       overflow: hidden; /* Hide the glow outside the circular container */
@@ -179,6 +184,11 @@
         0 0 30px #C202ED; /* Copyright */
       color: white; /* Copyright */
       opacity: 1;
+      font-family: 'Archivo', sans-serif; /*google font*/
+      font-family: 'Bebas Neue', sans-serif; /*google font*/
+      font-family: 'Lilita One', cursive;  /*google font*/
+      font-family: 'Orbitron', sans-serif; /*google font*/
+      font-family: 'Press Start 2P', cursive; /*Google font*/
     }
     
     .ContactSys .Outside{
@@ -240,11 +250,17 @@
         0 0 30px #C202ED; /* Copyright */
       color: white; /* Copyright */
       opacity: 1;
+      font-family: 'Archivo', sans-serif;
+      font-family: 'Bebas Neue', sans-serif;
+      font-family: 'Lilita One', cursive;
+      font-family: 'Monoton', cursive;
+      font-family: 'Orbitron', sans-serif;
+      font-family: 'Press Start 2P', cursive;
     }
     
     #LogoItIs{
       margin-top: 20px; /* Adjust margin for smaller screens */
-      width: 30%; /* Use full width for smaller screens */
+      width: 80%; /* Use full width for smaller screens */
       height: auto; /* Auto-adjust height for smaller screens */
       margin-right: 0px; /* Remove right margin for smaller screens */
       transition: transform 5s ease-in-out; /* Add a smooth transition */
@@ -259,15 +275,26 @@
     
     #WelcomeHome .WelText h1,
     #WelcomeHome .WelText h2{
+      margin-top: 20px; /* Adjust margin for smaller screens */
+    }
+  
+    #WelcomeHome .WelText h1{
       font-family: 'Archivo', sans-serif;
       font-family: 'Bebas Neue', sans-serif;
       font-family: 'Lilita One', cursive;
       font-family: 'Monoton', cursive;
       font-family: 'Orbitron', sans-serif;
       font-family: 'Press Start 2P', cursive;
-      font-family: 'Racing Sans One', cursive;
-      margin-top: 20px; /* Adjust margin for smaller screens */
     }
+
+    #WelcomeHome .WelText h2{
+      font-family: 'Archivo', sans-serif;
+      font-family: 'Bebas Neue', sans-serif;
+      font-family: 'Lilita One', cursive;
+      font-family: 'Monoton', cursive;
+      font-family: 'Orbitron', sans-serif;
+      font-family: 'Press Start 2P', cursive;
+      }   
     
     #WelcomeHome .WelText h2:hover{
       text-decoration: none;
@@ -337,6 +364,14 @@
       height: auto; /* Auto-adjust height for smaller screens */
       margin-right: 10%; /* Remove right margin for smaller screens */
       margin-left: 10%;
+    }
+
+    #LogoLinks h1{
+      font-family: 'Archivo', sans-serif; /*google font*/
+      font-family: 'Bebas Neue', sans-serif; /*google font*/
+      font-family: 'Lilita One', cursive;  /*google font*/
+      font-family: 'Orbitron', sans-serif; /*google font*/
+      font-family: 'Press Start 2P', cursive; /*Google font*/
     }
     
     #HeadingItIs{
@@ -429,6 +464,15 @@
       padding-right: 2.5%;
     }
     
+    #HeadIs2{
+      font-family: 'Archivo', sans-serif;
+      font-family: 'Bebas Neue', sans-serif;
+      font-family: 'Black Ops One', cursive;
+      font-family: 'Lilita One', cursive;
+      font-family: 'Monoton', cursive;
+      font-family: 'Orbitron', sans-serif;
+      font-family: 'Racing Sans One', cursive;  
+    }
     
     #PyPrjHead h1,
     #NetPrjHead h1{
@@ -437,6 +481,11 @@
       margin-bottom: 20px; /* Adjust margin for smaller screens */
       padding: 10px; /* Padding inside the border */
       font-family: 'Archivo', sans-serif; /* Google font */
+      font-family: 'Archivo', sans-serif; /*google font*/
+      font-family: 'Bebas Neue', sans-serif; /*google font*/
+      font-family: 'Lilita One', cursive;  /*google font*/
+      font-family: 'Orbitron', sans-serif; /*google font*/
+      font-family: 'Press Start 2P', cursive; /*Google font*/
     }
 
 
