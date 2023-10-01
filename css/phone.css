@@ -41,17 +41,16 @@
       text-decoration: none;
       color: #C202ED; /* Change the text color as desired */
       font-weight: bold;
-      box-shadow: inset 0 0 0 0 black; /* Copyright */
-      color: #C202ED; /* Copyright */
-      margin: 0 -0.25rem; /* Copyright */
-      padding: 0 0.25rem; /* Copyright */
-      transition: color 0.3s ease-in-out, box-shadow 1.5s ease-in-out; /* Copyright */
+      box-shadow: inset 0 0 0 0 black; 
+      margin: 0 -0.25rem; 
+      padding: 0 0.25rem; 
+      transition: color 0.3s ease-in-out, box-shadow 1.5s ease-in-out; 
     }
     
     #logo,
     #logo1{
-      width: 50px; /* Set the width of your logo */
-      height: 50px; /* Set the height of your logo */
+      width: 50px; /* Set the width of the logo */
+      height: 50px; /* Set the height of the logo */
       margin-right: 0px; /* Adjust spacing between the logo and menu items */
     }
     
@@ -92,8 +91,8 @@
       font-family: 'Archivo', sans-serif; /* Google font */
       text-decoration: none;
       text-shadow: 0 0 10px #C202ED, 0 0 20px #C202ED,
-        0 0 30px #C202ED; /* Copyright */
-      color: white; /* Copyright */
+        0 0 30px #C202ED; 
+      color: white; 
       opacity: 1;
       margin-left: -3%;
       font-family: 'Archivo', sans-serif; /*google font*/
@@ -131,7 +130,7 @@
       margin-bottom: 80px; /* Adjust margin for smaller screens */
       text-decoration: none;
       text-shadow: 0 0 10px #C202ED, 0 0 20px #C202ED,
-        0 0 30px #C202ED; /* Copyright */
+        0 0 30px #C202ED; 
       opacity: 1;
       padding-right: 10%;
     }
@@ -181,8 +180,8 @@
       font-family: 'Archivo', sans-serif; /* Google font */
       text-decoration: none;
       text-shadow: 0 0 10px #C202ED, 0 0 20px #C202ED,
-        0 0 30px #C202ED; /* Copyright */
-      color: white; /* Copyright */
+        0 0 30px #C202ED; 
+      color: white; 
       opacity: 1;
       font-family: 'Archivo', sans-serif; /*google font*/
       font-family: 'Bebas Neue', sans-serif; /*google font*/
@@ -213,8 +212,8 @@
     .ContactSys .SubmitButton:hover{
       text-decoration: none;
       text-shadow: 0 0 10px #C202ED, 0 0 20px #C202ED,
-        0 0 30px #C202ED; /* Copyright */
-      color: #C202ED; /* Copyright */
+        0 0 30px #C202ED; 
+      color: #C202ED; 
       opacity: 1;
       transform: scale(1.2); /* Zoom in by 20% on hover */
     }
@@ -222,8 +221,8 @@
     .ContactSys h2:hover{
       text-decoration: none;
       text-shadow: 0 0 10px #C202ED, 0 0 20px #C202ED,
-        0 0 30px #C202ED; /* Copyright */
-      color: #C202ED; /* Copyright */
+        0 0 30px #C202ED; 
+      color: #C202ED; 
       opacity: 1;
     }
     
@@ -247,8 +246,8 @@
       font-size: 200%; /* Decrease font size for smaller screens */
       text-decoration: none;
       text-shadow: 0 0 10px #C202ED, 0 0 20px #C202ED,
-        0 0 30px #C202ED; /* Copyright */
-      color: white; /* Copyright */
+        0 0 30px #C202ED; 
+      color: white; 
       opacity: 1;
       font-family: 'Archivo', sans-serif;
       font-family: 'Bebas Neue', sans-serif;
@@ -299,8 +298,8 @@
     #WelcomeHome .WelText h2:hover{
       text-decoration: none;
       text-shadow: 0 0 10px #C202ED, 0 0 20px #C202ED,
-        0 0 30px #C202ED; /* Copyright */
-      color: #C202ED; /* Copyright */
+        0 0 30px #C202ED; 
+      color: #C202ED; 
       opacity: 1;
       transform: scale(1.1); /* Zoom in by 10% on hover */
     }
@@ -351,11 +350,11 @@
       text-decoration: none;
     }
     
-    /* Clear floats to ensure the footer stays at the bottom */
+
     .clearfix::after{
-      content: "";
-      display: table;
-      clear: both;
+      content: "";  /* Clear floats to ensure the footer stays at the bottom */
+      display: table;  /* Clear floats to ensure the footer stays at the bottom */
+      clear: both;  /* Clear floats to ensure the footer stays at the bottom */
     }
     
     #LogoLinks{
@@ -377,8 +376,8 @@
     #HeadingItIs{
       text-decoration: none;
       text-shadow: 0 0 10px #C202ED, 0 0 20px #C202ED,
-        0 0 30px #C202ED; /* Copyright */
-      color: white; /* Copyright */
+        0 0 30px #C202ED; 
+      color: white; 
       opacity: 1;
       margin-right: 20%;
     }
@@ -492,48 +491,48 @@
     #UnordLiOne h1{
       text-decoration: none;
       text-shadow: 0 0 10px #C202ED, 0 0 20px #C202ED,
-        0 0 30px #C202ED; /* Copyright */
-      color: white; /* Copyright */
+        0 0 30px #C202ED; 
+      color: white; 
       opacity: 1;
     }
     
     article{
       text-decoration: none;
       text-shadow: 0 0 10px #C202ED, 0 0 20px #C202ED,
-        0 0 30px #C202ED; /* Copyright */
-      color: white; /* Copyright */
+        0 0 30px #C202ED; 
+      color: white; 
       opacity: 1;
     }
 
     #PyPrjDesc, #UnordLi1, #UnordLi2, #NetPrjDesc, #KeyCompHeadNet, #SelPara{
       text-decoration: none;
       text-shadow: 0 0 10px #C202ED, 0 0 20px #C202ED,
-        0 0 30px #C202ED; /* Copyright */
-      color: white; /* Copyright */
+        0 0 30px #C202ED; 
+      color: white; 
       opacity: 1;
     }
 
     #ONel{
       text-decoration: none;
       text-shadow: 0 0 10px #C202ED, 0 0 20px #C202ED,
-        0 0 30px #C202ED; /* Copyright */
-      color: white; /* Copyright */
+        0 0 30px #C202ED; 
+      color: white; 
       opacity: 1;
     }
 
     #UnordLiTwo{
       text-decoration: none;
       text-shadow: 0 0 10px #C202ED, 0 0 20px #C202ED,
-        0 0 30px #C202ED; /* Copyright */
-      color: white; /* Copyright */
+        0 0 30px #C202ED; 
+      color: white; 
       opacity: 1;
     }
 
     #KeyCompHeadPy{
       text-decoration: none;
       text-shadow: 0 0 10px #C202ED, 0 0 20px #C202ED,
-        0 0 30px #C202ED; /* Copyright */
-      color: white; /* Copyright */
+        0 0 30px #C202ED; 
+      color: white; 
       opacity: 1;
     }
 

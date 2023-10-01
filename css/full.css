@@ -3,12 +3,12 @@
 body{
 margin: 0;
 padding: 0;
-display: flex;
-flex-direction: column;
-align-items: center;
-min-height: 100vh;
-background: rgb(27,15,37);
-background: linear-gradient(92deg, rgba(27,15,37,1) 100%, rgba(154,26,175,1) 100%, rgba(6,66,176,1) 100%);
+display: flex; /* Center content vertically and arrange it in a column */
+flex-direction: column; /* Center content vertically and arrange it in a column */
+align-items: center; /* Center content vertically and arrange it in a column */
+min-height: 100vh; /* Ensure a minimum height of 100% of the viewport height */
+background: rgb(27,15,37);/*From Adobe*/
+background: linear-gradient(92deg, rgba(27,15,37,1) 100%, rgba(154,26,175,1) 100%, rgba(6,66,176,1) 100%);/*From Adobe*/
 }
 
 
@@ -28,28 +28,26 @@ margin-right: 80px; /* Adjust spacing between menu items */
 
 
 .NavMenu li a{
-text-decoration: none;
-color: #C202ED; /* Change the text color as desired */
-font-weight: bold;
-box-shadow: inset 0 0 0 0 black;/*Copyright*/
-color: #C202ED;/*Copyright*/
-margin: 0 -.25rem;/*Copyright*/
-padding: 0 .25rem;/*Copyright*/
-transition: color 0.3s ease-in-out, box-shadow 1.5s ease-in-out;/*Copyright*/
+text-decoration: none; /* Remove underlines */
+color: #C202ED; /* Change the text color as desired and taken from Adobe */
+font-weight: bold; /* Make text bold */
+box-shadow: inset 0 0 0 0 black;
+margin: 0 -.25rem;
+padding: 0 .25rem;
+transition: color 0.3s ease-in-out, box-shadow 1.5s ease-in-out;
 }
 
 
 .NavMenu li a:hover{
-text-decoration: none; /* Add an underline effect on hover */
-box-shadow: inset 100px 0 0 0 #C202ED;/*Copyright*/
-color: rgb(27,15,37);/*Copyright*/
-color: rgb(27, 15, 37);/*Copyright*/
+text-decoration: none; /* Remove text underline and add box shadow on hover */
+box-shadow: inset 100px 0 0 0 #C202ED; /* Remove text underline and add box shadow on hover */
+color: rgb(27, 15, 37); /* Remove text underline and add box shadow on hover */
 }
 
 
 #logo{
-width: 100px; /* Set the width of your logo */
-height: 100px; /* Set the height of your logo */
+width: 100px; /* Set the width of the logo */ 
+height: 100px; /* Set the height of the logo */
 margin-right: 0px; /* Adjust spacing between the logo and menu items */
 transition: transform 0.3s ease-in-out; /* Add a smooth transition */
 }
@@ -61,8 +59,8 @@ transform: rotate(360deg); /* Rotate the logo 360 degrees on hover */
 
 
 #logo1{
-width: 100px; /* Set the width of your logo */
-height: 100px; /* Set the height of your logo */
+width: 100px; /* Set the width of the logo */
+height: 100px; /* Set the height of the logo */
 margin-right: 0px; /* Adjust spacing between the logo and menu items */
 transition: transform 0.3s ease-in-out; /* Add a smooth transition */
 }
@@ -115,8 +113,8 @@ font-family: 'Press Start 2P', cursive; /*Google font*/
 
 #ImgContent h1:hover{
 text-decoration: none;
-text-shadow: 0 0 10px #C202ED, 0 0 20px #C202ED, 0 0 30px #C202ED;/*copyright*/
-color: #C202ED;/*Copyright*/
+text-shadow: 0 0 10px #C202ED, 0 0 20px #C202ED, 0 0 30px #C202ED;
+color: #C202ED;
 opacity: 1; 
 }
 
@@ -125,8 +123,8 @@ opacity: 1;
 margin-top: 100px;
 margin-left: 130px;
 margin-bottom: 30px;
-width: 500px; /* Set the width of your logo */
-height: 500px; /* Set the height of your logo */
+width: 500px; /* Set the width of the logo */
+height: 500px; /* Set the height of the logo */
 margin-right: 0px; /* Adjust spacing between the logo and menu items */
 transition: transform 1s ease-in-out; /* Add a smooth transition */
 border-radius: 50%; /* Create a circular shape for the container */
@@ -148,20 +146,20 @@ transform: scale(1.1); /* Zoom in by 10% on hover */
 
 #ImgContent .PicLogo .ContentItIs{
 color: white;
-text-align: center;
+text-align: center; /*Align the text to center*/
 margin-top: 20px;
 }
 
 
 .ContentItIs{
-list-style: none;     /* Remove default bullets */
+list-style: none; /* Remove default bullets */
 margin-bottom: 100px;
 }
 
 
 #ImgContent .PicLogo .ContentItIs:hover{
 text-decoration: none;
-text-shadow: 0 0 10px #C202ED, 0 0 20px #C202ED, 0 0 30px #C202ED;/*copyright*/
+text-shadow: 0 0 10px #C202ED, 0 0 20px #C202ED, 0 0 30px #C202ED;
 opacity: 1;
 transform: scale(1.1); /* Zoom in by 10% on hover */
 }
@@ -242,7 +240,7 @@ padding-top: 0; /* Remove any top padding for the placeholder text */
 
 .ContactSys .SubmitButton:hover{
 text-decoration: none;
-text-shadow: 0 0 10px #C202ED, 0 0 20px #C202ED, 0 0 30px #C202ED;/*copyright*/
+text-shadow: 0 0 10px #C202ED, 0 0 20px #C202ED, 0 0 30px #C202ED;
 color: white;
 opacity: 1;
 transform: scale(1.2); /* Zoom in by 20% on hover */
@@ -251,8 +249,8 @@ transform: scale(1.2); /* Zoom in by 20% on hover */
 
 .ContactSys h2:hover{
 text-decoration: none;
-text-shadow: 0 0 10px #C202ED, 0 0 20px #C202ED, 0 0 30px #C202ED;/*copyright*/
-color: #C202ED;/*Copyright*/
+text-shadow: 0 0 10px #C202ED, 0 0 20px #C202ED, 0 0 30px #C202ED;
+color: #C202ED;
 opacity: 1;
 }
 
@@ -281,7 +279,7 @@ color: #C202ED;
 
 
 #WelcomeHome .WelText h1{
-font-size: 35px;/* Set your initial font size */
+font-size: 35px;/* Set initial font size */
 transition: font-size 0.2s; /* Add a transition for smooth animation */
 }
 
@@ -332,8 +330,8 @@ font-family: 'Press Start 2P', cursive;
 
 #WelcomeHome .WelText h2:hover{
 text-decoration: none;
-text-shadow: 0 0 10px #C202ED, 0 0 20px #C202ED, 0 0 30px #C202ED;/*copyright*/
-color: #C202ED;/*Copyright*/
+text-shadow: 0 0 10px #C202ED, 0 0 20px #C202ED, 0 0 30px #C202ED;
+color: #C202ED;
 opacity: 1;
 transform: scale(1.1); /* Zoom in by 10% on hover */
 }
@@ -384,11 +382,10 @@ text-decoration: none;
 }
 
 
-/* Clear floats to ensure the footer stays at the bottom */
-.clearfix::after {
-content: "";
-display: table;
-clear: both;
+.clearfix::after { 
+content: ""; /* Clear floats to ensure the footer stays at the bottom */
+display: table; /* Clear floats to ensure the footer stays at the bottom */
+clear: both; /* Clear floats to ensure the footer stays at the bottom */
 }
 
 
@@ -421,8 +418,8 @@ font-family: 'Press Start 2P', cursive; /*Google font*/
 
 #LogoLinks h1:hover{
 text-decoration: none;
-text-shadow: 0 0 10px #C202ED, 0 0 20px #C202ED, 0 0 30px #C202ED;/*copyright*/
-color: #C202ED;/*Copyright*/
+text-shadow: 0 0 10px #C202ED, 0 0 20px #C202ED, 0 0 30px #C202ED;
+color: #C202ED;
 opacity: 1;
 }
 
@@ -553,8 +550,8 @@ font-family: 'Press Start 2P', cursive; /*Google font*/
 
 #PyPrjHead h1:hover{
 text-decoration: none;
-text-shadow: 0 0 10px #C202ED, 0 0 20px #C202ED, 0 0 30px #C202ED;/*copyright*/
-color: #C202ED;/*Copyright*/
+text-shadow: 0 0 10px #C202ED, 0 0 20px #C202ED, 0 0 30px #C202ED;
+color: #C202ED;
 opacity: 1;
 }
 
@@ -613,8 +610,8 @@ font-family: 'Press Start 2P', cursive; /*Google font*/
 
 #NetPrjHead h1:hover{
 text-decoration: none;
-text-shadow: 0 0 10px #C202ED, 0 0 20px #C202ED, 0 0 30px #C202ED;/*copyright*/
-color: #C202ED;/*Copyright*/
+text-shadow: 0 0 10px #C202ED, 0 0 20px #C202ED, 0 0 30px #C202ED;
+color: #C202ED;
 opacity: 1;
 }
 
